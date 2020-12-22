@@ -2,7 +2,7 @@ name: Fudan Daily ZSY
 
 on:
   schedule:
-    - cron: '01 16 * * *'
+    - cron: '05 16 * * *'
 
 jobs:
   build:
