@@ -87,9 +87,9 @@ def notify(_status, _message):
         "desp": _message
     }
     if _status:
-        _d["text"] = "ZSY-打卡成功"
+        _d["text"] = "打卡成功-ZSY"
     else:
-        _d["text"] = "ZSY-打卡失败，请手动打卡"
+        _d["text"] = "打卡失败，请手动打卡-ZSY"
 
     requests.post(f"https://sc.ftqq.com/{PUSH_KEY}.send", data=_d)
 
